@@ -73,3 +73,5 @@ if steam_is_running; then
         steam_is_running && kill -9 $(pgrep --uid $my_uid steam)
     fi
 fi
+
+cleanup_old_files
